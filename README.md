@@ -3,11 +3,12 @@
 ### Requerimientos
 -Docker
 ### Installation
-Posicionarse en el directorio principal y ejecutar el siguiente comando
+Posicionarse en el directorio principal donde se encuentra el archivo docker-compose.yml y ejecutar los siguientes comandos
 
 ```sh
-$ docker-compose -f "docker-compose.yml" up -d --build
+$ docker-compose build
+$ docker-compose up
 ```
 
 La aplicación estara funcionando en [http://localhost:3000/](http://localhost:3000/).
-ugins. Instructions on how to use them in your own application are linked below.
+
