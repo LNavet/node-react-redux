@@ -34,7 +34,10 @@ services:
       - api
     ports: 
       - "3000:3000"
+    volumes: 
+      - "./client/src:/app/src"
     stdin_open: true
 
 volumes:
   pgdata:
+  client:
